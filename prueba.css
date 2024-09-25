@@ -143,12 +143,12 @@ ol{
 
 @media (max-width: 768px) {
     .contprincipal {
-        flex-direction: column; /* Cambia el layout de columnas a filas */
-        width: 100%; /* Asegúrate de que ocupe todo el ancho de la pantalla */
+        flex-direction: column; 
+        width: 100%; 
     }
 
     .columizq, .columderecha {
-        width: 100%; /* Cada columna ocupa el 100% del ancho en pantallas pequeñas */
+        width: 100%; 
     }
 
     .fotocv {
@@ -157,21 +157,21 @@ ol{
     }
 
     .contacto, .habilidades, .columderecha section {
-        text-align: center; /* Centra el texto en pantallas pequeñas */
+        text-align: center; 
     }
 
-    /* Ajustar iconos y texto */
+
     h1, h3 {
-        font-size: 1.2em; /* Ajusta el tamaño del texto para que se vea bien */
+        font-size: 1.2em; 
     }
 
     .iconoform, .icontrabajo, .iconoperfil, .icongithub {
-        width: 25px; /* Reduce el tamaño de los íconos */
+        width: 25px; 
         height: 25px;
     }
 }
 
-/* Para pantallas de menos de 480px (teléfonos) */
+
 @media (max-width: 480px) {
     .fotocv {
         width: 100px;
