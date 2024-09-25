@@ -141,3 +141,48 @@ ol{
     padding: 0%;
 }
 
+@media (max-width: 768px) {
+    .contprincipal {
+        flex-direction: column; /* Cambia el layout de columnas a filas */
+        width: 100%; /* Asegúrate de que ocupe todo el ancho de la pantalla */
+    }
+
+    .columizq, .columderecha {
+        width: 100%; /* Cada columna ocupa el 100% del ancho en pantallas pequeñas */
+    }
+
+    .fotocv {
+        width: 120px;
+        height: 120px;
+    }
+
+    .contacto, .habilidades, .columderecha section {
+        text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
+
+    /* Ajustar iconos y texto */
+    h1, h3 {
+        font-size: 1.2em; /* Ajusta el tamaño del texto para que se vea bien */
+    }
+
+    .iconoform, .icontrabajo, .iconoperfil, .icongithub {
+        width: 25px; /* Reduce el tamaño de los íconos */
+        height: 25px;
+    }
+}
+
+/* Para pantallas de menos de 480px (teléfonos) */
+@media (max-width: 480px) {
+    .fotocv {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: 0.9em;
+    }
+}
