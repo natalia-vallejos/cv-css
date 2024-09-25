@@ -1,0 +1,143 @@
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eddcdc;
+}
+
+
+.contprincipal {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.columizq {
+    background-color: #f4bcbc;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.fotocv {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+.contacto {
+    margin-top: 15px;
+    text-align: left;
+}
+
+
+.columderecha {
+    width: 70%;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3, h1 {
+    color: #333;
+    border-bottom: 2px solid #8a4242;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+ul {
+    list-style-type:initial;
+    padding: 3;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color:  #eca8a8; 
+    text-align: center; 
+    padding: 10px;
+    position: relative; 
+    width: 100%; 
+    bottom: 0; 
+    font-size: 15px; 
+}
+
+a {
+    text-decoration: none;
+    color: #89122a;
+}
+
+footer a {
+    font: size 16px;
+    text-decoration: none; 
+}
+
+.iconoform  {
+    width: 30px; 
+    height: 30px; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+}
+
+.icontrabajo{
+    width: 30px; 
+    height: 30px; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+}
+.icongithub{
+    width: 80px; 
+    height: 80px; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+}
+.iconoemail{
+    width: 20px; 
+    height: 20px; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+
+}
+
+.iconoperfil{
+    width: 30px; 
+    height: 30px; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+}
+.iconolinke{
+    width: 20px; 
+    height: 20px; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+}
+.iconocasa{
+    width: 20px; 
+    height: 20px;
+    vertical-align: middle; 
+    margin-right: 10px; 
+}
+.iconotelefono{
+    width: 20px; 
+    height: 20px;
+    vertical-align: middle; 
+    margin-right: 10px; 
+}
+ol{
+    padding: 0%;
+}
+
